@@ -1,0 +1,136 @@
+* {
+    /*padding: 0;
+    margin: 0;
+    /*box-sizing: border-box;*/
+} 
+:root{
+    --fondo:gray;
+    --botones1: rgb(172, 219, 196);
+    --separacion1: 20px;
+}
+
+body {
+    background-color: var(--fondo);
+    
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(2, 130px);
+    gap: var(--separacion1);
+
+}
+
+/*...............................................................*/
+/*                          botones principales                  */
+/*...............................................................*/
+
+.menu div{
+    list-style: none;
+    font-size: 20px;/*tamaño de fuente*/
+    display: flex;
+    justify-content: center;/*lo alinea en el eje x*/
+    align-items: center; /*lo alinea en el eje y*/
+    background-color: var(--botones1);
+
+}
+
+.menu .ficha{
+  
+}
+
+.menu .manuales{
+    /*position: static;*/
+    position:relative;
+    /*top: 30px;*/
+    left: 300px;
+
+}
+
+.menu .capacitaciones{
+    position:relative;
+    /*top: 10px;*/
+    left: 150px;
+}
+
+.menu .contacto{
+    position:relative;
+    /*top: 10px;*/
+    left: 150px;
+}
+button {
+    /*margin: 0em;*/
+    display: grid;
+    
+    padding: 14px 10px;
+}
+/*...............................................................*/
+/*                animacion botones principales                  */
+/*...............................................................*/
+
+.menu :hover{
+    background-color: rgb(44, 16, 223);
+    color: rgb(204, 218, 12);
+
+}
+
+/*...............................................................*/
+/*                           recuadro de notas                   */
+/*...............................................................*/
+.notas {
+    display: grid;
+    background-color: cornflowerblue;
+    height: 200px;
+    width: 900px;
+    padding: 5px;
+    position: relative;
+    top:10px;
+   
+
+}
+/*...............................................................*/
+/*                recuadro de boton salir                        */
+/*...............................................................*/
+.botonSalir {
+    display: inline-block;
+    text-align: center;
+    color: orange;
+    width:50px;
+    position: relative;
+    top: 40px;
+    left: 1350px;
+    background-color: rgb(163, 218, 170);
+    padding: 15px;/*me genera un borde alrrededor del texto*/
+    border-radius: 30px;
+      
+}
+.botonSalir:hover {
+    display: inline-block;
+    text-align: center;
+    width:50px;
+    position: relative;
+    top: 40px;
+    left: 1350px;
+    padding: 15px;/*me genera un borde alrrededor del texto*/
+    border-radius: 30px;
+    transform: translate(5px, 5px);
+    background-color: rgb(55, 73, 241);    
+}
+
+/*...............................................................*/
+/*                recuadro de calendario                         */
+/*...............................................................*/
+.calendario {
+    display: grid;
+    background-color: rgb(240, 110, 110);
+    height: 200px;
+    width: 400px;
+    position: relative;
+    top: -200px;
+    left: 1000px;
+    padding: 5px 10px;
+
+}
+
+
+

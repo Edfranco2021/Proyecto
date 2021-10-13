@@ -1,0 +1,7 @@
+:root{
+    --naranja:rgb(243, 199, 56);
+    
+    }
+    body{
+        background-color:var(--naranja);
+    }

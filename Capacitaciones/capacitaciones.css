@@ -1,0 +1,7 @@
+:root{
+    --verde:rgb(176, 241, 168);
+    
+    }
+    body{
+        background-color:var(--verde) ;
+    }
