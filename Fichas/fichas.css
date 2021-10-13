@@ -1,6 +1,12 @@
 :root{
 --rojo:rgb(238, 12, 12);
 }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
         background-color:var(--rojo);
 }
@@ -18,7 +24,6 @@ body{
     .botonSalir {
         display: inline-block;
         text-align: center;
-        color: orange;
         width:50px;
         position: relative;
         top: 40px;
@@ -27,6 +32,9 @@ body{
         padding: 15px;/*me genera un borde alrrededor del texto*/
         border-radius: 30px;
           
+    }
+    .botonSalir a{
+        color: orangered;
     }
     .botonSalir:hover {
         display: inline-block;
@@ -40,7 +48,9 @@ body{
         transform: translate(5px, 5px);
         background-color: rgb(55, 73, 241);    
     }
-    
+    .botonSalir a:hover {
+        color: yellow;
+    }
     /*...............................................................*/
     /*                recuadro de calendario                         */
     /*...............................................................*/
