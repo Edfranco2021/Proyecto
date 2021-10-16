@@ -10,6 +10,7 @@
     
     body{
             background-color:var(--rojo);
+            
      
     }
 /*...............................................................*/
@@ -66,7 +67,8 @@
         box-shadow:  2px 2px 5px 2px rgb(77, 97, 206);
         position: relative;
         top: -1060px;
-        left: 1100px;
+        left: 1130px;
+        box-shadow:  2px 2px 5px 2px rgb(245, 232, 231);
     }
     .eliminarFicha:hover {
         transform: translate(5px, 5px);
@@ -88,8 +90,9 @@
         /* border-radius: 30px;*/
         box-shadow:  2px 2px 5px 2px rgb(77, 97, 206);
         position: relative;
-        top: -1060px;
-        left: 1190px;
+        top: -1310px;
+        left: 1350px;
+        box-shadow:  2px 2px 5px 2px rgb(245, 232, 231);
     }
     .Aceptar:hover {
         transform: translate(5px, 5px);
@@ -98,6 +101,60 @@
     /*.Aceptar a:hover{
         color:yellow;
     }*/
+    /*...............................................................*/
+    /*                            Boton subir                         */
+    /*...............................................................*/
+    .triangle-up {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid #024504;
+        position:relative;
+        top:-1250px;
+        left:1340px;
+        transition: all 0.9s;
+        
+      }
+      .triangle-up:hover{
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid #27e024;
+        position:relative;
+        top:-1250px;
+        left:1340px;
+        transform: translate(5px, 5px);
+         }
+
+
+      
+    /*...............................................................*/
+    /*                            Boton bajar                         */
+    /*...............................................................*/
+    .triangle-down {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 100px solid #024504;
+        position:relative;
+        top:-1350px;
+        left:1120px;
+        transition: all 0.9S;
+      }
+      .triangle-down:hover {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 100px solid #0ce212;
+        position:relative;
+        top:-1350px;
+        left:1120px;
+        transform: translate(5px, 5px);
+      }
     /*...............................................................*/
     /*                      menu nuevo                       */
     /*...............................................................*/
@@ -154,7 +211,7 @@
         transform: translate(5px, 5px);
     }
     .menu .presupuesto a:hover{
-        color:yellow;
+        color:rgb(129, 129, 90);
     }
     
     /*...............................................................*/
@@ -165,8 +222,8 @@
         text-align: center;
         width: 85px;
         position: relative;
-        top: -865px;
-        left: 1110px;
+        top: -1100px;
+        left: 1275px;
         background-color: rgb(163, 218, 170);
         padding: 15px;/*me genera un borde alrrededor del texto*/
         border-radius: 30px;
@@ -180,8 +237,8 @@
         text-align: center;
         width: 85px;
         position: relative;
-        top: -865px;
-        left: 1110px;
+        top: -1100px;
+        left: 1275px;
         /*padding: 15px;/*me genera un borde alrrededor del texto*/
         border-radius: 30px;
         transform: translate(5px, 5px);
