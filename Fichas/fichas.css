@@ -1,67 +1,228 @@
 :root{
---rojo:rgb(238, 12, 12);
-}
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    --rojo:rgb(72, 116, 145);
+    }
+    * {
+        padding: 0;
+        margin: 20;
+        box-sizing: border-box;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+    body{
+            background-color:var(--rojo);
+     
+    }
+/*...............................................................*/
+/*                            TITULO                             */
+/*...............................................................*/
+
+.titulo {
+    display: grid;
+    width: 1500px;
+    background-color:  yellow;
+    /*border-radius: 0% 50% 50% 0%;*/
+    color: red;
+    padding: 5px 10px;
+    
 }
 
-body{
-        background-color:var(--rojo);
-}
-.menu {
-    display: block;
-    list-style: none;
-    background-color: grey;
-    height: 600px;
-    width: 200px;
-}
-
-/*...............................................................*/
-/*                recuadro de boton salir                        */
-/*...............................................................*/
+    .menu {
+        display: block;
+       /* list-style: none;*/
+        background-color: grey;
+        height: 600px;
+        width: 200px;
+        position:relative;
+        top:-10px;
+        gap: 10px;
+    }
+    .menu a{
+        color:white;
+    }
+    /*...............................................................*/
+    /*                      Area de treabajo                         */
+    /*...............................................................*/
+    .areaTrabajo {
+        display: grid;
+        background-color: rgb(107, 90, 90);
+        height: 600px;
+        width: 790px;
+        position: relative;
+        top: -860px;
+        left: 220px;
+        padding: 5px 10px;
+    
+    }
+    /*...............................................................*/
+    /*                      boton eliminar                         */
+    /*...............................................................*/
+    .eliminarFicha {
+        display: inline-block;
+        text-decoration: none;
+        text-align: left;
+        background-color: rgb(228, 23, 8);
+        padding: 15px;/*me genera un borde alrrededor del texto*/
+        /* border-radius: 30px;*/
+        box-shadow:  2px 2px 5px 2px rgb(77, 97, 206);
+        position: relative;
+        top: -1060px;
+        left: 1100px;
+    }
+    .eliminarFicha:hover {
+        transform: translate(5px, 5px);
+        color:yellow;
+    }
+    /*.eliminarFicha a:hover{
+        color:yellow;
+    }*/
+    /*...............................................................*/
+    /*                      boton aceptar                            */
+    /*...............................................................*/
+    
+    .Aceptar {
+        display: inline-block;
+        text-decoration: none;
+        text-align: left;
+        background-color: rgb(26, 56, 223);
+        padding: 15px;/*me genera un borde alrrededor del texto*/
+        /* border-radius: 30px;*/
+        box-shadow:  2px 2px 5px 2px rgb(77, 97, 206);
+        position: relative;
+        top: -1060px;
+        left: 1190px;
+    }
+    .Aceptar:hover {
+        transform: translate(5px, 5px);
+        color:yellow;
+    }
+    /*.Aceptar a:hover{
+        color:yellow;
+    }*/
+    /*...............................................................*/
+    /*                      menu nuevo                       */
+    /*...............................................................*/
+    .menu .nuevo {
+        display: inline-block;
+            text-decoration: none;
+            text-align: left;
+            background-color: rgb(8, 23, 107);
+            width: 112px;
+            padding: 15px;/*me genera un borde alrrededor del texto*/
+           /* border-radius: 30px;*/
+            box-shadow:  2px 2px 5px 2px rgb(77, 97, 206);
+    }
+    .menu .nuevo:hover {
+        transform: translate(5px, 5px);
+    }
+    .menu .nuevo a:hover{
+        color:yellow;
+    }
+    /*...............................................................*/
+    /*                      menu busqueda                      */
+    /*...............................................................*/
+    .menu .busqueda {
+        display: inline-block;
+            text-decoration: none;
+            text-align: left;
+            background-color: rgb(8, 23, 107);
+            width: 112px;
+            padding: 15px;/*me genera un borde alrrededor del texto*/
+           /* border-radius: 30px;*/
+            box-shadow:  2px 2px 5px 2px rgb(77, 97, 206);
+    }
+    .menu .busqueda:hover {
+        transform: translate(5px, 5px);
+    }
+    .menu .busqueda a:hover{
+        color:yellow;
+    }
+    
+    /*...............................................................*/
+    /*                      menu  presupuesto                   */
+    /*...............................................................*/
+    .menu .presupuesto {
+        display: inline-block;
+            text-decoration: none;
+            text-align: left;
+            background-color: rgb(8, 23, 107);
+            width: 112px;
+            padding: 15px;/*me genera un borde alrrededor del texto*/
+           /* border-radius: 30px;*/
+            box-shadow:  2px 2px 5px 2px rgb(77, 97, 206);
+    }
+    .menu .presupuesto:hover {
+        transform: translate(5px, 5px);
+    }
+    .menu .presupuesto a:hover{
+        color:yellow;
+    }
+    
+    /*...............................................................*/
+    /*                recuadro de boton salir                        */
+    /*...............................................................*/
     .botonSalir {
         display: inline-block;
         text-align: center;
-        width:50px;
+        width: 85px;
         position: relative;
-        top: 40px;
-        left: 1350px;
+        top: -865px;
+        left: 1110px;
         background-color: rgb(163, 218, 170);
         padding: 15px;/*me genera un borde alrrededor del texto*/
         border-radius: 30px;
-          
+    
     }
-    .botonSalir a{
-        color: orangered;
+    .botonSalir a {
+        color:orangered;
     }
     .botonSalir:hover {
         display: inline-block;
         text-align: center;
-        width:50px;
+        width: 85px;
         position: relative;
-        top: 40px;
-        left: 1350px;
-        padding: 15px;/*me genera un borde alrrededor del texto*/
+        top: -865px;
+        left: 1110px;
+        /*padding: 15px;/*me genera un borde alrrededor del texto*/
         border-radius: 30px;
         transform: translate(5px, 5px);
         background-color: rgb(55, 73, 241);    
     }
     .botonSalir a:hover {
-        color: yellow;
+        color:yellow;
     }
     /*...............................................................*/
-    /*                recuadro de calendario                         */
+    /*           retorno   volver a pagina principal                 */
     /*...............................................................*/
-    .calendario {
-        display: grid;
-        background-color: rgb(240, 110, 110);
-        height: 200px;
-        width: 400px;
-        position: relative;
-        top: -600px;
-        left: 1000px;
-        padding: 5px 10px;
+        .retorno {
+            display: inline-block;
+            text-decoration: none;
+            text-align: left;
+            background-color: rgb(64, 110, 70);
+            padding: 15px;/*me genera un borde alrrededor del texto*/
+            border-radius: 30px;
+            box-shadow:  2px 2px 5px 2px rgb(71, 218, 71);
+        }
+        .retorno a{
+            color:white;
+        }
+        .retorno:hover {
+            transform: translate(5px, 5px);
+        }
+        .retorno a:hover{
+            color:yellow;
+        }
     
-    }
+        /*...............................................................*/
+        /*                recuadro de calendario                         */
+        /*...............................................................*/
+        .calendario {
+            display: grid;
+            background-color: rgb(240, 110, 110);
+            height: 200px;
+            width: 450px;
+            position: relative;
+            top: -660px;
+            left: 1050px;
+            padding: 5px 10px;
+        
+        }
