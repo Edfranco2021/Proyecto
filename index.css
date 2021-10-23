@@ -77,10 +77,20 @@ button {
 /*...............................................................*/
 /*                           recuadro de notas                   */
 /*...............................................................*/
+
+.menu :hover{
+    background-color: rgb(44, 16, 223);
+    color: rgb(204, 218, 12);
+
+}
+
+/*...............................................................*/
+/*                           recuadro de notas                   */
+/*...............................................................*/
 .notas {
-    display: grid;
+    display: inline-block;
     background-color: cornflowerblue;
-    height: 200px;
+    height: 300px;
     width: 900px;
     padding: 5px;
     position: relative;
@@ -89,6 +99,7 @@ button {
 
 }
 textarea {
+    
     opacity: 0.6;
     font-weight: normal;
   }
@@ -154,7 +165,7 @@ textarea {
     height: 200px;
     width: 400px;
     position: relative;
-    top: -200px;
+    top: -298px;
     left: 1000px;
     padding: 5px 10px;
    
