@@ -38,7 +38,93 @@
     </div><!-- calendario -->
 
     <div class="areaTrabajo">
-        <h2>Area de Trabajo</h2>
+        <div class="TituloFicha">
+            <h2>Area de Trabajo</h2>
+        </div>
+        <form action "enviar.js">
+            
+            <div class="datosFicha">
+                <label>
+                    Numero de Ficha:
+                    <!-- numero entero, se debe modificar el numero max de fichas mas adelante -->
+                    <input type= "number" min "0" max "300">
+                </label>
+                <label>
+                    Fecha:
+                    <!-- 
+                    -->
+                    <input type="date">
+                </label>
+                <label>
+                    Reingreso:
+                    <!-- dropdow, selector de opciones limitadas -->
+                    <select>
+                        <option>Si</option>
+                        <option>No</option>
+                    </select>                    
+                </label><br>
+
+                <div class="FichaCliente">
+                    <label>
+                        Nombre:
+                        <input type="text" required "true">
+                    </label>
+                    <label> 
+                        Email:
+                        <!-- validar una direcccion de email
+                        -->
+                        <input type="email">
+                    
+                    </label>
+                    <label>
+                        Tel/Cel:
+                        <input type= "number" min "18" max "150">
+                    </label>
+                </div>
+                <div class="datosEquipo">
+                    <label>
+                        Marca:
+                        <input type="text" required "true">
+                    </label>
+                    <label>
+                        Modelo:
+                        <input type="text" required "true">
+                    </label>
+                    <label>
+                        Serial:
+                        <input type="text" required "true">
+                    </label> <br> <!-- ver como hacer el salto sin usar esto-->
+
+                    <label>
+                        Estado del equipo:
+                        <!-- dropdow, selector de opciones limitadas -->
+                        <select>
+                            <option>Nuevo</option>
+                            <option>Pocco Uso</option>
+                            <option>Roto</option>
+                        </select>                    
+                    </label>     
+
+                </div>
+
+                <div class="notas">
+                    <h3>NOTAS: </h2>
+                    <textarea name="textarea" rows="10" cols="50"> </textarea>
+                    <input type="submit" value="Agregar Nota">
+                </div class="salir">
+                
+               </div>
+
+            <!--<input type="checkbox" required>
+            -Crear ficha nueva-
+            </label>
+            <br> -->
+                   
+            <input type="submit" value="Crear"><!-- es un boton tipo submit llama a la accion  --> <!--con value le cambiamos el texto interiro al boton -->
+            <input type="reset"value="Borrar"> <!-- limpia el formulario y lo vuelve a su estado inicial -->
+            <!-- <input type="button"> <!-- necesita js -->
+        </form>
+
     </div><!-- area de trabajo -->
 
     <div class="eliminarFicha">
