@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="fichas.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="titulo">
         <h1>FICHAS</h1>
@@ -15,17 +17,17 @@
     <div class="menu">
         <ul>
             <li class="busqueda">
-                 <a style="text-decoration:none" href="#">Busqueda</a>
-                </li>
-			<li class="nuevo"> 
+                <a style="text-decoration:none" href="#">Busqueda</a>
+            </li>
+            <li class="nuevo">
                 <a style="text-decoration:none" href="#">Nueva Ficha</a>
             </li>
-			<li class="presupuesto">
+            <li class="presupuesto">
                 <a style="text-decoration:none" href="#">
                     Presupuesto
                 </a>
             </li>
-		</ul>
+        </ul>
 
     </div>
 
@@ -40,87 +42,91 @@
     <!-- formulario de fichas -->
     <div class="areaTrabajo">
         <h2>Area de Trabajo</h2>
-        
+
         <form action "enviar.js">
-            
-               
-                     <label>
-                        Numero de Ficha:
-                        <!-- numero entero, se debe modificar el numero max de fichas mas adelante -->
-                        <input type= "number" min "0" max "300">
-                     </label>
-                    <label>
-                        Fecha:
-                            <!-- 
+
+
+            <label>
+                Numero de Ficha:
+                <!-- numero entero, se debe modificar el numero max de fichas mas adelante -->
+                <input type="number" min "0" max "300">
+            </label>
+            <label>
+                Fecha:
+                <!-- 
                             -->
-                        <input type="date">
-                    </label>
-                    
-                    <label>
-                    Reingreso:
-                        <!-- dropdow, selector de opciones limitadas -->
-                        <select>
-                            <option>Si</option>
-                            <option>No</option>
-                        </select>                    
-                    </label>
-                  <br>                              
-                    <label>
-                        Nombre:
-                        <input type="text" required "true">
-                    </label>
-                    <label> 
-                        Email:
-                        <!-- validar una direcccion de email
+                <input type="date">
+            </label>
+
+            <label>
+                Reingreso:
+                <!-- dropdow, selector de opciones limitadas -->
+                <select>
+                    <option>Si</option>
+                    <option>No</option>
+                </select>
+            </label>
+            <br>
+            <label>
+                Nombre:
+                <input type="text" required "true">
+            </label>
+            <label>
+                Email:
+                <!-- validar una direcccion de email
                         -->
-                        <input type="email">
-                     </label>
-                    <label>
-                        Tel/Cel:
-                        <input type= "number" min "18" max "150">
-                    </label>
-                    <br>
-                    <label>
-                        Marca:
-                        <input type="text" required "true">
-                    </label>
-                    <label>
-                        Modelo:
-                        <input type="text" required "true">
-                    </label>
-                    <label>
-                        Serial:
-                        <input type="text" required "true">
-                    </label> <br> <!-- ver como hacer el salto sin usar esto-->
+                <input type="email">
+            </label>
+            <label>
+                Tel/Cel:
+                <input type="number" min "18" max "150">
+            </label>
+            <br>
+            <label>
+                Marca:
+                <input type="text" required "true">
+            </label>
+            <label>
+                Modelo:
+                <input type="text" required "true">
+            </label>
+            <label>
+                Serial:
+                <input type="text" required "true">
+            </label> <br> <!-- ver como hacer el salto sin usar esto-->
 
-                    <label>
-                        Estado del equipo:
-                        <!-- dropdow, selector de opciones limitadas -->
-                        <select>
-                            <option>Nuevo</option>
-                            <option>Pocco Uso</option>
-                            <option>Roto</option>
-                        </select>                    
-                    </label>     
+            <label>
+                Estado del equipo:
+                <!-- dropdow, selector de opciones limitadas -->
+                <select>
+                    <option>Nuevo</option>
+                    <option>Pocco Uso</option>
+                    <option>Roto</option>
+                </select>
+            </label>
 
-               
+            <br>
 
-                
-                    <h3>NOTAS: </h2>
-                        <textarea name="textarea" rows="10" cols="110"> </textarea>
-                        <input type="submit" value="Agregar Nota">
-                
+            <label>
+                NOTAS:
+                <textarea name="textarea" rows="10" cols="110"> </textarea>
+                <input type="submit" value="Agregar Nota">
+            </label>
 
-                <!-- </div class="salir">   </div> -->
 
-                <!--<input type="checkbox" required>
+
+
+            <!-- </div class="salir">   </div> -->
+
+            <!--<input type="checkbox" required>
                 -Crear ficha nueva-
                 </label>
                 <br> -->
-                   
-                <input type="submit" value="Crear"><!-- es un boton tipo submit llama a la accion  --> <!--con value le cambiamos el texto interiro al boton -->
-                <input type="reset"value="Borrar"> <!-- limpia el formulario y lo vuelve a su estado inicial -->
-               
+
+            <input type="submit" value="Crear"><!-- es un boton tipo submit llama a la accion  -->
+            <!--con value le cambiamos el texto interiro al boton -->
+            <input type="reset" value="Borrar"> <!-- limpia el formulario y lo vuelve a su estado inicial -->
+
         </form>
 
     </div><!-- area de trabajo -->
@@ -129,22 +135,25 @@
         Eliminar
     </div>
 
-    <div class="triangle-up"> </div> <!--triangulo subir -->
-    <div class="triangle-down"> </div> <!--triangulo bajar -->
+    <div class="triangle-up"> </div>
+    <!--triangulo subir -->
+    <div class="triangle-down"> </div>
+    <!--triangulo bajar -->
 
     <div class="Aceptar">
         Aceptar
     </div>
 
     <div class="botonSalir">
-         <!--<button>
+        <!--<button>
             <a style="text-decoration:none" href="https://google.com/" target="blank">SALIR
             </a>
         </button> -->
 
-        <a style="text-decoration:none" href="https://google.com/" target="blank">  
-        SALIR
+        <a style="text-decoration:none" href="https://google.com/" target="blank">
+            SALIR
         </a>
     </div>
 </body>
+
 </html>
