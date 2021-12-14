@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
     <title>Pagina de servi inicio</title>
 </head>
 <body>
@@ -40,11 +48,30 @@
         <input type="submit" value="Subir">
 
     </div>
-
+<!-- ........................................................................................................ -->
     <div class="calendario">
-        <h2> Calendario </h2>
+        <div class="calendar">
+            <div class="month">
+              <i class="fas fa-angle-left prev"></i>
+              <div class="date">
+                <h1></h1>
+                <p></p>
+              </div>
+              <i class="fas fa-angle-right next"></i>
+            </div>
+            <div class="weekdays">
+              <div>Dom</div>
+              <div>Lun</div>
+              <div>Mar</div>
+              <div>Mie</div>
+              <div>Jue</div>
+              <div>Vie</div>
+              <div>Sab</div>
+            </div>
+            <div class="days"></div>
+          </div>
     </div>
-
+<!-- ........................................................................................................ -->
     <div class="botonSalir">
          <!--<button>
             <a style="text-decoration:none" href="https://google.com/" target="blank">SALIR
@@ -60,6 +87,6 @@
          </a>
     </div>
 
-
+    <script src="calendario.js"></script>
 </body>
 </html>
