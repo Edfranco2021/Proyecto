@@ -6,6 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="fichas.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
     <title>Document</title>
 </head>
 
@@ -34,11 +42,30 @@
     <div class="retorno">
         <a style="text-decoration:none" href="..\index.html">Volver</a>
     </div><!-- boton de retorno -->
-
+ <!-- ................................................................... -->
     <div class="calendario">
-        <h2>Calendario</h2>
+        <div class="calendar">
+            <div class="month">
+              <i class="fas fa-angle-left prev"></i>
+              <div class="date">
+                <h1></h1>
+                <p></p>
+              </div>
+              <i class="fas fa-angle-right next"></i>
+            </div>
+            <div class="weekdays">
+              <div>Dom</div>
+              <div>Lun</div>
+              <div>Mar</div>
+              <div>Mie</div>
+              <div>Jue</div>
+              <div>Vie</div>
+              <div>Sab</div>
+            </div>
+            <div class="days"></div>
+          </div>
     </div><!-- calendario -->
-
+<!-- ................................................................... -->
     <!-- formulario de fichas -->
     <div class="areaTrabajo">
         <h2>Area de Trabajo</h2>
@@ -150,10 +177,12 @@
             </a>
         </button> -->
 
-        <a style="text-decoration:none" href="https://google.com/" target="blank">
+        <a style="text-decoration:none" href="https://google.com/" >
             SALIR
         </a>
     </div>
+
+    <script src="../calendario.js"></script>
 </body>
 
 </html>
