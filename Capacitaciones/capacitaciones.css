@@ -6,7 +6,7 @@
         background-color:var(--verde) ;
         /*background-image: url("../trabajando.JPG");*/
     }
-    .h2 {
+    h2 {
        
         color: white;
         font-family: Arial, Helvetica, sans-serif;
@@ -16,6 +16,28 @@
     }
     .imagenTrabajando{
         position: relative;
-        /*top: -2em;
-        left: 5em;*/
+        /*top: -1em;*/
+        left: 32em;
+    }
+
+        /*...............................................................*/
+    /*           retorno   volver a pagina principal                 */
+    /*...............................................................*/
+    .retorno {
+        display: inline-block;
+        text-decoration: none;
+        text-align: left;
+        background-color: rgb(64, 110, 70);
+        padding: 15px;/*me genera un borde alrrededor del texto*/
+        border-radius: 30px;
+        box-shadow:  2px 2px 5px 2px rgb(71, 218, 71);
+    }
+    .retorno a{
+        color:white;
+    }
+    .retorno:hover {
+        transform: translate(5px, 5px);
+    }
+    .retorno a:hover{
+        color:yellow;
     }
