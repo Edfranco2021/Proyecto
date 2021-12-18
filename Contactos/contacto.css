@@ -2,6 +2,50 @@
     --naranja:rgb(243, 199, 56);
     
     }
+
     body{
         background-color:var(--naranja);
     }
+
+    :root{
+        --fondo:gray;
+        --botones1: rgb(172, 219, 196);
+        --separacion1: 20px;
+    }
+    
+    body {
+        background-color: var(--fondo);
+        background-image: url("../trabajando.JPG");
+        
+    }
+
+.formulario{
+    width: 800px;
+    background-color: burlywood;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.titulo{
+width: 1000px;
+background-color: rgb(182, 171, 171);
+}
+
+/*...............................................................*/
+/*                        Imagen Volver                          */
+/*...............................................................*/
+.imagenVolver img {
+    max-width: 30%;
+    border-radius: 20px;
+    position: relative;
+    top: 120px;
+    left: 700px;
+    
+}
+
+.imagenVolver img:hover {
+    transition: all 1s;
+    transform: scale(-1);
+    border-radius: 70px;
+}

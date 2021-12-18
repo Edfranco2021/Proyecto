@@ -1,15 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contacto.css">
     <title>contacto</title>
-          <!-- favicon  -->
-  <link rel="shortcut icon" href="../ninja.png">
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="../ninja.png">
 </head>
+
 <body>
     <h1>Contacto: </h1>
+
+    <!-- formulario de fichas -->
+    <div class="areaTrabajo">
+
+        
+        <form action class="formulario""enviar.js">
+            
+            <label>
+                Nombre:
+                <input type="text" required "true">
+            </label>
+            <label>
+                Email:
+                <!-- validar una direcccion de email
+                        -->
+                <input type="email">
+            </label>
+            <label>
+                Tel/Cel:
+                <input type="number" min "18" max "150">
+            </label>
+            <label>
+                Particural:
+                <!-- dropdow, selector de opciones limitadas -->
+                <select>
+                    <option>Si</option>
+                    <option>No</option>
+                </select>
+            </label>
+            <label>
+                Direccion:
+                <input type="text" required "true">
+            </label>
+            
+            <!-- cuadro de texto  -->
+            
+            <label>
+                NOTAS:
+                <textarea name="textarea" rows="10" cols="80"> </textarea>
+                <input type="submit" value="cargar contacto">
+            </label>
+            <!-- cuadro de texto  -->
+
+            <div class="titulo">
+                <h2>Area de Trabajo:</h2>
+            </div>
+
+            <div class="imagenVolver">
+                <a href="..\index.html" alt="volver">
+                    <img src="..\volver.jpg" alt="Volver">
+                </a>
+            </div><!-- Acá cierra .imagen -->
 </body>
+
 </html>
