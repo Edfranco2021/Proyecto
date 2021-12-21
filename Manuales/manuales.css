@@ -36,33 +36,23 @@ body{
     padding-bottom: 10px;
     color: var(--blanco);
 }
-/*...............................................................*/
-/*                 Manuales y capacitaciones                     */
-/*...............................................................*/
-.contenedorLista {
-    /* Sacamos los puntitos */
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    padding-bottom: 10px;
-    color: var(--blanco);
-}
+
 /*...............................................................*/
 /*                           Listado                             */
 /*...............................................................*/
 .listado {
     width: 400px;
-    height: 300px;
+    height: 200px;
     background-color: darkolivegreen;
     list-style: none;
+    margin: 20px;
     display: block;
+    border-radius: 5%;
     color: var(--blanco);
     padding: 10px;
-
     position: relative;
-    top: 0px;
-    left: 1080px;
+    top: 9px;
+    left: -20px;
 }
 
 
@@ -81,17 +71,25 @@ body{
     top: -300px;
     left: 0px;
 }
+/*...............................................................*/
+/*                  Area de trabajo recuadro                     */
+/*...............................................................*/
+/*.AreTrabRecu {
+    position: relative;
+    top: -53em;
+    left: 1.3em;
 
+}*/
 
 /*...............................................................*/
 /*                        Imagen Volver                          */
 /*...............................................................*/
-.imagenVolver img {
+.imagenVolver img{
     max-width: 10%;
     border-radius: 20px;
     position: relative;
-    top: -550px;
-    left: 1200px;
+    top: 50px;
+    left: 750px;
     
 }
 

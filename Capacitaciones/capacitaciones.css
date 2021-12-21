@@ -6,13 +6,18 @@
         background-color:var(--verde) ;
         /*background-image: url("../trabajando.JPG");*/
     }
+/*...............................................................*/
+/*           TITULO DE REPARACION PAGINA                         */
+/*...............................................................*/
     h2 {
        
         color: white;
         font-family: Arial, Helvetica, sans-serif;
         font-size:28px;
         text-align: center;
-    
+/*...............................................................*/
+/*           IMAGEN DE HOMBRECITOS TRABAJANDO                    */
+/*...............................................................*/    
     }
     .imagenTrabajando{
         position: relative;
@@ -20,7 +25,7 @@
         left: 32em;
     }
 
-        /*...............................................................*/
+    /*...............................................................*/
     /*           retorno   volver a pagina principal                 */
     /*...............................................................*/
     .retorno {
