@@ -67,6 +67,7 @@ body{
     display: flex;
     color: var(--blanco);
     padding: 10px;
+    margin-left: 20px;
     position: relative;
     top: -300px;
     left: 0px;
@@ -85,7 +86,7 @@ body{
 /*                        Imagen Volver                          */
 /*...............................................................*/
 .imagenVolver img{
-    max-width: 10%;
+    max-width:10%;
     border-radius: 20px;
     position: relative;
     top: 50px;

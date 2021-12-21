@@ -19,23 +19,28 @@
 
         <form name="contact" method="POST" data-netlify="true">
             
-              <label>Nombre: <input type="text" name="name" /></label>   
+              <label>Nombre: <input type="text" required "true" name="name" /></label>   
             
            
-              <label>Email: <input type="email" name="email" /></label>
+              <label>Email: <input type="email" required "true" name="email" /></label>
 
-              <label>tel./Cel.:<input type="number" name="telefono" /></label>
-            
-            
-              <label>Tipo de cliente: <select name="tipo[]" multiple>
-                <option value="Particular">Particular</option>
-                <option value="Empresa">Empresa</option>
-              </select></label>
+              <label>tel./Cel.:<input type="number" required "true" name="telefono" /></label>
             
             <p>
-              <label>Nota: <textarea name="message"></textarea></label>
+                <label>Tipo de cliente:                  
+                </label>
             </p>
+                <select name="tipo[]" multiple>
+                  <option value="Particular">Particular</option>
+                  <option value="Empresa">Empresa</option>
+                </select>
+            
+            
             <p>
+              <label>Nota: </label>
+            </p>
+              <label><textarea name="message"rows="10" cols="80"></textarea></label>
+            
               <button type="submit">Enviar</button>
             </p>
           </form>
