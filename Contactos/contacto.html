@@ -17,46 +17,28 @@
     <!-- formulario de fichas -->
     <div class="areaTrabajo">
 
-        
-        <!-- <form action class="formulario" name="ficha" netlify> -->
-        <form action class="formulario" name="ficha"  method="POST" data-netlify="true">
-
-            <label>
-                Nombre:
-                <input type="text" required "true" name="nombre" />
-            </label>
-            <label>
-                Email:
-                <!-- validar una direcccion de email
-                        -->
-                <input type="email" name="correo" />
-            </label>
-            <label>
-                Tel/Cel:
-                <input type="number" min "7" max "12" name="Telefono" />
-            </label>
-            <label>
-                Particural:
-                <!-- dropdow, selector de opciones limitadas -->
-                <select name="particular[]" multiple>
-                    <option>Si</option>
-                    <option>No</option>
-                </select>
-            </label>
-            <label>
-                Direccion:
-                <input type="text" required "true" name="Direccion">
-            </label>
-            
-            <!-- cuadro de texto  -->
-            
-            <label>
-                NOTAS:
-                <textarea name="nota" rows="10" cols="80" > </textarea>
-                <input type="submit" value="cargar contacto">
-            </label>
-            <!-- cuadro de texto  -->
-
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Nombre: <input type="text" name="name" /></label>   
+            </p>
+            <p>
+              <label>Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>Tipo de cliente: <select name="tipo[]" multiple>
+                <option value="Particular">Particular</option>
+                <option value="Empresa">Empresa</option>
+              </select></label>
+            </p>
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Enviar</button>
+            </p>
+          </form>
+  
+      
             <div class="titulo">
                 <h2>Area de Trabajo:</h2>
             </div>
@@ -66,6 +48,7 @@
                     <img src="..\volver.jpg" alt="Volver">
                 </a>
             </div><!-- Acá cierra .imagen -->
+    </div>
 </body>
 
 </html>
