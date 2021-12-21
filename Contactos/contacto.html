@@ -20,39 +20,39 @@
         
         <!-- <form action class="formulario" name="ficha" netlify> -->
         <form action class="formulario" name="ficha"  method="POST" data-netlify="true">
-            
+
             <label>
                 Nombre:
-                <input type="text" required "true">
+                <input type="text" required "true" name="nombre" />
             </label>
             <label>
                 Email:
                 <!-- validar una direcccion de email
                         -->
-                <input type="email">
+                <input type="email" name="correo" />
             </label>
             <label>
                 Tel/Cel:
-                <input type="number" min "18" max "150">
+                <input type="number" min "7" max "12" name="Telefono" />
             </label>
             <label>
                 Particural:
                 <!-- dropdow, selector de opciones limitadas -->
-                <select>
+                <select name="particular[]" multiple>
                     <option>Si</option>
                     <option>No</option>
                 </select>
             </label>
             <label>
                 Direccion:
-                <input type="text" required "true">
+                <input type="text" required "true" name="Direccion">
             </label>
             
             <!-- cuadro de texto  -->
             
             <label>
                 NOTAS:
-                <textarea name="textarea" rows="10" cols="80"> </textarea>
+                <textarea name="nota" rows="10" cols="80" > </textarea>
                 <input type="submit" value="cargar contacto">
             </label>
             <!-- cuadro de texto  -->
