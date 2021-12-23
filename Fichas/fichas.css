@@ -1,297 +1,305 @@
 :root{
-    --rojo:rgb(72, 116, 145);
-    }
-    * {
-        padding: 0;
-        margin: 20;
-        box-sizing: border-box;
-        font-family:'Times New Roman', Times, serif;
-    }
-    
-    body{
-            background-color:var(--rojo);
-            
-     
-    }
+  --rojo:rgb(72, 116, 145);
+  }
+  * {
+      padding: 0;
+      margin: 20;
+      box-sizing: border-box;
+      font-family:'Times New Roman', Times, serif;
+  }
+  
+  body{
+          background-color:var(--rojo);
+          font-size: 100%;
+          
+   
+  }
 /*...............................................................*/
 /*                            TITULO                             */
 /*...............................................................*/
 
 .titulo {
-    display: grid;
-    width: 1500px;
-    background-color:  yellow;
-    /*border-radius: 0% 50% 50% 0%;*/
-    color: red;
-    padding: 5px 10px;
-    
+  display: grid;
+  width: 1500px;
+  background-color:  yellow;
+  /*border-radius: 0% 50% 50% 0%;*/
+  color: red;
+  padding: 5px 10px;
+  font-size: 100%;
+  
 }
 
-    .menu {
-        display: block;
-       /* list-style: none;*/
-        background-color: grey;
-        height: 600px;
-        width: 200px;
-        position:relative;
-        top:-10px;
-        gap: 10px;
-    }
-    .menu a{
-        color:white;
-    }
-    /*...............................................................*/
-    /*                      Area de trabajo                         */
-    /*...............................................................*/
-    .areaTrabajo {
-        display: flexbox;
-        background-color: rgb(194, 190, 190);
-        height: 600px;
-        width: 790px;
-        position: relative;
-        top: -1150px;
-        left: 220px;
-        padding: 5px 10px;
-        border-radius: 5%;
-    
-    }
+  .menu {
+      display: block;
+     /* list-style: none;*/
+      background-color: grey;
+      height: 600px;
+      width: 200px;
+      position:relative;
+      top:-10px;
+      gap: 10px;
+      font-size: 110%;
 
-    /*...............................................................*/
-    /*                      boton eliminar                         */
-    /*...............................................................*/
-    .eliminarFicha {
-        display: inline-block;
-        text-decoration: none;
-        text-align: left;
-        background-color: rgb(228, 23, 8);
-        padding: 15px;/*me genera un borde alrrededor del texto*/
-        /* border-radius: 30px;*/
-        box-shadow:  2px 2px 5px 2px rgb(77, 97, 206);
-        position: relative;
-        top: -1068px;
-        left: 1130px;
-        border-radius: 50%;
-        box-shadow:  2px 2px 5px 2px rgb(231, 146, 140);
-    }
-    .eliminarFicha:hover {
-        transform: translate(5px, 5px);
-        color:yellow;
-    }
-    /*.eliminarFicha a:hover{
-        color:yellow;
-    }*/
-    /*...............................................................*/
-    /*                      boton aceptar                            */
-    /*...............................................................*/
-    
-    .Aceptar {
-        display: inline-block;
-        text-decoration: none;
-        text-align: left;
-        background-color: rgb(26, 56, 223);
-        padding: 15px;/*me genera un borde alrrededor del texto*/
-        /* border-radius: 30px;*/
-        box-shadow:  2px 2px 5px 2px rgb(77, 97, 206);
-        position: relative;
-        top: -1310px;
-        left: 1260px;
-        border-radius: 50%;
-        box-shadow:  2px 2px 5px 2px rgb(122, 146, 211);
-    }
-    .Aceptar:hover {
-        transform: translate(5px, 5px);
-        color:yellow;
-    }
-    /*.Aceptar a:hover{
-        color:yellow;
-    }*/
-    /*...............................................................*/
-    /*                            Boton subir                         */
-    /*...............................................................*/
-    .triangle-up {
-        width: 0;
-        height: 0;
-        border-left: 50px solid transparent;
-        border-right: 50px solid transparent;
-        border-bottom: 100px solid #024504;
-        position:relative;
-        top:-1250px;
-        left:1240px;
-        transition: all 0.9s;
-        
-      }
-      .triangle-up:hover{
-        width: 0;
-        height: 0;
-        border-left: 50px solid transparent;
-        border-right: 50px solid transparent;
-        border-bottom: 100px solid #27e024;
-        position:relative;
-        top:-1250px;
-        left:1240px;
-        transform: translate(5px, 5px);
-         }
+  }
+  .menu a{
+      color:white;
+  }
+  /*...............................................................*/
+  /*                      Area de trabajo                         */
+  /*...............................................................*/
+  .areaTrabajo {
+      display: flexbox;
+      background-color: rgb(194, 190, 190);
+      height: 600px;
+      width: 790px;
+      position: relative;
+      top: -1150px;
+      left: 220px;
+      padding: 5px 10px;
+      border-radius: 5%;
+      font-size: 200%;
+  
+  }
 
-
+  /*...............................................................*/
+  /*                      boton eliminar                         */
+  /*...............................................................*/
+  .eliminarFicha {
+      display: inline-block;
+      text-decoration: none;
+      text-align: left;
+      background-color: rgb(228, 23, 8);
+      padding: 15px;/*me genera un borde alrrededor del texto*/
+      /* border-radius: 30px;*/
+      box-shadow:  2px 2px 5px 2px rgb(77, 97, 206);
+      position: relative;
+      top: -1068px;
+      left: 1130px;
+      border-radius: 50%;
+      box-shadow:  2px 2px 5px 2px rgb(231, 146, 140);
+      font-size: 200%;   
+  }
+  .eliminarFicha:hover {
+      transform: translate(5px, 5px);
+      color:yellow;
+  }
+  /*.eliminarFicha a:hover{
+      color:yellow;
+  }*/
+  /*...............................................................*/
+  /*                      boton aceptar                            */
+  /*...............................................................*/
+  
+  .Aceptar {
+      display: inline-block;
+      text-decoration: none;
+      text-align: left;
+      background-color: rgb(26, 56, 223);
+      padding: 15px;/*me genera un borde alrrededor del texto*/
+      /* border-radius: 30px;*/
+      box-shadow:  2px 2px 5px 2px rgb(77, 97, 206);
+      position: relative;
+      top: -1320px;
+      left: 1260px;
+      border-radius: 50%;
+      box-shadow:  2px 2px 5px 2px rgb(122, 146, 211);
+      font-size: 200%;    
+  }
+  .Aceptar:hover {
+      transform: translate(5px, 5px);
+      color:yellow;
+  }
+  /*.Aceptar a:hover{
+      color:yellow;
+  }*/
+  /*...............................................................*/
+  /*                            Boton subir                         */
+  /*...............................................................*/
+  .triangle-up {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid #024504;
+      position:relative;
+      top:-1250px;
+      left:1240px;
+      transition: all 0.9s;
       
-    /*...............................................................*/
-    /*                            Boton bajar                         */
-    /*...............................................................*/
-    .triangle-down {
-        width: 0;
-        height: 0;
-        border-left: 50px solid transparent;
-        border-right: 50px solid transparent;
-        border-top: 100px solid #024504;
-        position:relative;
-        top:-1350px;
-        left:1100px;
-        transition: all 0.9S;
-      }
-      .triangle-down:hover {
-        width: 0;
-        height: 0;
-        border-left: 50px solid transparent;
-        border-right: 50px solid transparent;
-        border-top: 100px solid #0ce212;
-        position:relative;
-        top:-1350px;
-        left:1100px;
-        transform: translate(5px, 5px);
-      }
-    /*...............................................................*/
-    /*                      menu nuevo                               */
-    /*...............................................................*/
-    .menu .nuevo {
-        display: inline-block;
-            text-decoration: none;
-            text-align: left;
-            background-color: rgb(8, 23, 107);
-            width: 112px;
-            padding: 15px;/*me genera un borde alrrededor del texto*/
-           /* border-radius: 30px;*/
-            box-shadow:  2px 2px 5px 2px rgb(77, 97, 206);
-            border-radius: 15% 50%;
     }
-    .menu .nuevo:hover {
-        transform: translate(5px, 5px);
-    }
-    .menu .nuevo a:hover{
-        color:yellow;
-    }
-    /*...............................................................*/
-    /*                      menu busqueda                      */
-    /*...............................................................*/
-    .menu .busqueda {
-        display: inline-block;
-            text-decoration: none;
-            text-align: left;
-            background-color: rgb(8, 23, 107);
-            width: 112px;
-            padding: 15px;/*me genera un borde alrrededor del texto*/
-           /* border-radius: 30px;*/
-           border-radius: 15% 50%;
-            box-shadow:  2px 2px 5px 2px rgb(77, 97, 206);
-    }
-    .menu .busqueda:hover {
-        transform: translate(5px, 5px);
-    }
-    .menu .busqueda a:hover{
-        color:yellow;
-    }
-    
-    /*...............................................................*/
-    /*                      menu  presupuesto                   */
-    /*...............................................................*/
-    .menu .presupuesto {
-        display: inline-block;
-            text-decoration: none;
-            text-align: left;
-            background-color: rgb(8, 23, 107);
-            width: 112px;
-            padding: 15px;/*me genera un borde alrrededor del texto*/
-           /* border-radius: 30px;*/
-           border-radius: 15% 50%;
-            box-shadow:  2px 2px 5px 2px rgb(77, 97, 206);
-    }
-    .menu .presupuesto:hover {
-        transform: translate(5px, 5px);
-    }
-    .menu .presupuesto a:hover{
-        color:yellow;
-    }
-    
-    /*...............................................................*/
-    /*                recuadro de boton salir                        */
-    /*...............................................................*/
-    .botonSalir {
-        display: inline-block;
-        text-align: center;
-        width: 85px;
-        position: relative;
-        top: -1200px;
-        left: 1135px;
-        background-color: rgb(163, 218, 170);
-        padding: 15px;/*me genera un borde alrrededor del texto*/
-        border-radius: 30px;
-        box-shadow:  3px 3px 5px 2px rgb(232 113 113);
-    
-    }
-    .botonSalir a {
-        color:orangered;
+    .triangle-up:hover{
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid #27e024;
+      position:relative;
+      top:-1250px;
+      left:1240px;
+      transform: translate(5px, 5px);
+       }
 
-    }
-    .botonSalir:hover {
-        display: inline-block;
-        text-align: center;
-        width: 85px;
-        position: relative;
-        top: -1200px;
-        left: 1135px;
-        box-shadow:  3px 03px 5px 2px rgb(217 226 133);
-        /*padding: 15px;/*me genera un borde alrrededor del texto*/
-        border-radius: 30px;
-        transform: translate(5px, 5px);
-        background-color: rgb(55, 73, 241);    
-    }
-    .botonSalir a:hover {
-        color:yellow;
-    }
-    /*...............................................................*/
-    /*           retorno   volver a pagina principal                 */
-    /*...............................................................*/
-        .retorno {
-            display: inline-block;
-            text-decoration: none;
-            text-align: left;
-            background-color: rgb(64, 110, 70);
-            padding: 15px;/*me genera un borde alrrededor del texto*/
-            border-radius: 30px;
-            box-shadow:  2px 2px 5px 2px rgb(71, 218, 71);
-        }
-        .retorno a{
-            color:white;
-        }
-        .retorno:hover {
-            transform: translate(5px, 5px);
-        }
-        .retorno a:hover{
-            color:yellow;
-        }
+
     
+  /*...............................................................*/
+  /*                            Boton bajar                         */
+  /*...............................................................*/
+  .triangle-down {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid #024504;
+      position:relative;
+      top:-1350px;
+      left:1100px;
+      transition: all 0.9S;
+    }
+    .triangle-down:hover {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid #0ce212;
+      position:relative;
+      top:-1350px;
+      left:1100px;
+      transform: translate(5px, 5px);
+    }
+  /*...............................................................*/
+  /*                      menu nuevo                               */
+  /*...............................................................*/
+  .menu .nuevo {
+      display: inline-block;
+          text-decoration: none;
+          text-align: left;
+          background-color: rgb(8, 23, 107);
+          width: 112px;
+          padding: 15px;/*me genera un borde alrrededor del texto*/
+         /* border-radius: 30px;*/
+          box-shadow:  2px 2px 5px 2px rgb(77, 97, 206);
+          border-radius: 15% 50%;
+  }
+  .menu .nuevo:hover {
+      transform: translate(5px, 5px);
+  }
+  .menu .nuevo a:hover{
+      color:yellow;
+  }
+  /*...............................................................*/
+  /*                      menu busqueda                      */
+  /*...............................................................*/
+  .menu .busqueda {
+      display: inline-block;
+          text-decoration: none;
+          text-align: left;
+          background-color: rgb(8, 23, 107);
+          width: 112px;
+          padding: 15px;/*me genera un borde alrrededor del texto*/
+         /* border-radius: 30px;*/
+         border-radius: 15% 50%;
+          box-shadow:  2px 2px 5px 2px rgb(77, 97, 206);
+  }
+  .menu .busqueda:hover {
+      transform: translate(5px, 5px);
+  }
+  .menu .busqueda a:hover{
+      color:yellow;
+  }
+  
+  /*...............................................................*/
+  /*                      menu  presupuesto                   */
+  /*...............................................................*/
+  .menu .presupuesto {
+      display: inline-block;
+          text-decoration: none;
+          text-align: left;
+          background-color: rgb(8, 23, 107);
+          width: 112px;
+          padding: 15px;/*me genera un borde alrrededor del texto*/
+         /* border-radius: 30px;*/
+         border-radius: 15% 50%;
+          box-shadow:  2px 2px 5px 2px rgb(77, 97, 206);
+  }
+  .menu .presupuesto:hover {
+      transform: translate(5px, 5px);
+  }
+  .menu .presupuesto a:hover{
+      color:yellow;
+  }
+  
+  /*...............................................................*/
+  /*                recuadro de boton salir                        */
+  /*...............................................................*/
+  .botonSalir {
+      display: inline-block;
+      text-align: center;
+      width: 85px;
+      position: relative;
+      top: -1200px;
+      left: 1135px;
+      background-color: rgb(163, 218, 170);
+      padding: 15px;/*me genera un borde alrrededor del texto*/
+      border-radius: 30px;
+      box-shadow:  3px 3px 5px 2px rgb(232 113 113);
+      font-size: 200%;
+  }
+  .botonSalir a {
+      color:orangered;
+
+  }
+  .botonSalir:hover {
+      display: inline-block;
+      text-align: center;
+      width: 85px;
+      position: relative;
+      top: -1200px;
+      left: 1135px;
+      box-shadow:  3px 03px 5px 2px rgb(217 226 133);
+      /*padding: 15px;/*me genera un borde alrrededor del texto*/
+      border-radius: 30px;
+      transform: translate(5px, 5px);
+      background-color: rgb(55, 73, 241);    
+  }
+  .botonSalir a:hover {
+      color:yellow;
+  }
+  /*...............................................................*/
+  /*           retorno   volver a pagina principal                 */
+  /*...............................................................*/
+      .retorno {
+          display: inline-block;
+          text-decoration: none;
+          text-align: left;
+          background-color: rgb(64, 110, 70);
+          padding: 15px;/*me genera un borde alrrededor del texto*/
+          border-radius: 30px;
+          box-shadow:  2px 2px 5px 2px rgb(71, 218, 71);
+    font-size: 200%;
+     }
+      .retorno a{
+          color:white;
+      }
+      .retorno:hover {
+          transform: translate(5px, 5px);
+      }
+      .retorno a:hover{
+          color:yellow;
+      }
+  
 /*...............................................................*/
 /*                recuadro de calendario                         */
 /*...............................................................*/
 .calendario {
-    /*display: grid;
-    background-color: rgb(240, 110, 110);
-    height: 200px;
-    width: 400px;*/
-    position: relative;
-    top: -67em;
-    left: 105em;
-    padding: 5px 10px;
-    
+  /*display: grid;
+  background-color: rgb(240, 110, 110);
+  height: 200px;
+  width: 400px;*/
+  position: relative;
+  top: -67em;
+  left: 105em;
+  padding: 5px 10px;
+  
 }
 /*...............................................................*/
 /*  cuadro de medidas --->1rem= 1em = 16px, 100% = 16px
@@ -301,104 +309,104 @@
 /*...............................................................*/
 
 html {
-    font-size: 60%;
-  }
-  
-  .container {
-    width: 100%;
-    height: 100vh;
-    background-color: #12121f;
-    color: #eee;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .calendar {
-    width: 45rem;
-    height: 52rem;
-    background-color: #c5c5ce;
-    box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
-  }
+  font-size: 60%;
+}
 
-  .month {
-    /*width: 91%;*/
-    height: 12rem;
-    background-color: #167e56;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
-    text-align: center;
-    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
-  }
-  
-  .month i {
-    font-size: 2.5rem;
-    cursor: pointer;
-  }
-  
-  .month h1 {
-    font-size: 3rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .month p {
-    font-size: 1.6rem;
-  }
-  
-  .weekdays {
-    width: 100%;
-    height: 5rem;
-    padding: 0 0.4rem;
-    display: flex;
-    align-items: center;
-  }
-  
-  .weekdays div {
-    font-size: 1.5rem;
-    font-weight: 400;
-    letter-spacing: 0.1rem;
-    width: calc(44.2rem / 7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
-  }
-  
-  .days {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0.2rem;
-  }
-  
-  .days div {
-    font-size: 1.4rem;
-    margin: 0.3rem;
-    width: calc(40.2rem / 7);
-    height: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
-    transition: background-color 0.2s;
-  }
-  
-  .days div:hover:not(.today) {
-    background-color: #916b6b;
-    border: 0.2rem solid rgb(129, 120, 120);
-    cursor: pointer;
-  }
-  
-  .prev-date,
-  .next-date {
-    opacity: 0.5;
-  }
-  
-  .today {
-    background-color: #167e56;
-  }
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #12121f;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendar {
+  width: 45rem;
+  height: 52rem;
+  background-color: #c5c5ce;
+  box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
+}
+
+.month {
+  /*width: 91%;*/
+  height: 12rem;
+  background-color: #167e56;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  text-align: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.month i {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.month h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.month p {
+  font-size: 1.6rem;
+}
+
+.weekdays {
+  width: 100%;
+  height: 5rem;
+  padding: 0 0.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.weekdays div {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  width: calc(44.2rem / 7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.days {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.2rem;
+}
+
+.days div {
+  font-size: 1.4rem;
+  margin: 0.3rem;
+  width: calc(40.2rem / 7);
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  transition: background-color 0.2s;
+}
+
+.days div:hover:not(.today) {
+  background-color: #916b6b;
+  border: 0.2rem solid rgb(129, 120, 120);
+  cursor: pointer;
+}
+
+.prev-date,
+.next-date {
+  opacity: 0.5;
+}
+
+.today {
+  background-color: #167e56;
+}
