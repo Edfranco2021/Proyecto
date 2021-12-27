@@ -315,6 +315,7 @@ html {
     body {
       background-color: var(--fondo);
       background-image: none;
+      font-size: 120%;
       */
     }
     
@@ -433,6 +434,7 @@ html {
     }
     .botonSalir a {
       color:orangered;
+      font-size: 25px;
     }
     .botonSalir:hover {
       display: inline-block;
