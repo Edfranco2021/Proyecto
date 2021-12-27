@@ -46,3 +46,15 @@
     .retorno a:hover{
         color:yellow;
     }
+
+    /*...............................................................*/
+    /*                        parte movil                            */
+    /*...............................................................*/
+    @media (max-width: 400px){
+        .imagenTrabajando{
+            position: relative;
+            /*top: -1em;*/
+            left: 1em;
+        }    
+
+    }

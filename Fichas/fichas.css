@@ -42,6 +42,7 @@
   }
   .menu a{
       color:white;
+      font-size: 12px;
   }
   /*...............................................................*/
   /*                      Area de trabajo                         */
@@ -52,11 +53,11 @@
       height: 600px;
       width: 790px;
       position: relative;
-      top: -1076px;
+      top: -988px;
       left: 208px;
       padding: 5px 10px;
       border-radius: 5%;
-      font-size: 200%;
+      font-size: 250%;
   }
 
   /*...............................................................*/
@@ -72,10 +73,10 @@
       box-shadow:  2px 2px 5px 2px rgb(77, 97, 206);
       position: relative;
       top: -1068px;
-      left: 1130px;
+      left: 1059px;
       border-radius: 50%;
       box-shadow:  2px 2px 5px 2px rgb(231, 146, 140);
-      font-size: 200%;   
+      font-size: 200%;
   }
   .eliminarFicha:hover {
       transform: translate(5px, 5px);
@@ -97,11 +98,11 @@
       /* border-radius: 30px;*/
       box-shadow:  2px 2px 5px 2px rgb(77, 97, 206);
       position: relative;
-      top: -1320px;
-      left: 1260px;
+      top: -1313px;
+      left: 1171px;
       border-radius: 50%;
       box-shadow:  2px 2px 5px 2px rgb(122, 146, 211);
-      font-size: 200%;    
+      font-size: 200%;
   }
   .Aceptar:hover {
       transform: translate(5px, 5px);
@@ -121,9 +122,8 @@
       border-bottom: 100px solid #024504;
       position:relative;
       top:-1250px;
-      left:1240px;
+      left: 1155px;
       transition: all 0.9s;
-      
     }
     .triangle-up:hover{
       width: 0;
@@ -133,7 +133,7 @@
       border-bottom: 100px solid #27e024;
       position:relative;
       top:-1250px;
-      left:1240px;
+      left:1155px;
       transform: translate(5px, 5px);
        }
 
@@ -150,7 +150,7 @@
       border-top: 100px solid #024504;
       position:relative;
       top:-1350px;
-      left:1100px;
+      left: 1054px;
       transition: all 0.9S;
     }
     .triangle-down:hover {
@@ -161,7 +161,7 @@
       border-top: 100px solid #0ce212;
       position:relative;
       top:-1350px;
-      left:1100px;
+      left:1054px;
       transform: translate(5px, 5px);
     }
   /*...............................................................*/
@@ -235,7 +235,7 @@
       width: 85px;
       position: relative;
       top: -1200px;
-      left: 1135px;
+      left: 1043px;
       background-color: rgb(163, 218, 170);
       padding: 15px;/*me genera un borde alrrededor del texto*/
       border-radius: 30px;
@@ -252,7 +252,7 @@
       width: 85px;
       position: relative;
       top: -1200px;
-      left: 1135px;
+      left: 1043px;
       box-shadow:  3px 03px 5px 2px rgb(217 226 133);
       /*padding: 15px;/*me genera un borde alrrededor del texto*/
       border-radius: 30px;
@@ -294,8 +294,8 @@
   height: 200px;
   width: 400px;*/
   position: relative;
-  top: -81em;
-  left: 125em;
+  top: -101em;
+  left: 157em;
   padding: 5px 10px;
 }
 /*...............................................................*/
@@ -306,7 +306,7 @@
 /*...............................................................*/
 
 html {
-  font-size: 50%;
+  font-size: 40%;
 }
 
 .container {
