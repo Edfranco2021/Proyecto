@@ -294,3 +294,159 @@ html {
   .today {
     background-color: #167e56;
   }
+/*...............................................................*/
+/*                recuadro de calendario                         */
+/*...............................................................*/
+
+
+
+  @media (max-width: 400px){
+    * {
+      /*padding: 0;
+      margin: 0;
+      /*box-sizing: border-box;*/
+    } 
+    :root{
+      --fondo:gray;
+      --botones1: rgb(172, 219, 196);
+      --separacion1: 20px;
+    }
+    
+    body {
+      background-color: var(--fondo);
+     /* background-image: url("https://x3jme3vmctf3dmlkql5tzx17-wpengine.netdna-ssl.com/wp-content/uploads/2020/11/circuito-electronico-digital.png");
+      */
+    }
+    
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(2, 130px);
+      gap: var(--separacion1);
+    
+    }
+    
+    /*...............................................................*/
+    /*                            TITULO                             */
+    /*...............................................................*/
+    
+    .titulo {/*display: grid;
+    width: 1500px;
+    /*background-color:  rgb(7, 7, 7);*//*border-radius: 0% 50% 50% 0%;*/
+    color: rgb(241, 234, 234);padding: 5px 10px;font-size: 250%;font-family: -webkit-pictograph;position: relative;top: 2px;left: 2px;}
+    /*...............................................................*/
+    /*                          botones principales                  */
+    /*...............................................................*/
+    
+    .menu div{
+      list-style: none;
+      font-size: 20px;/*tamaño de fuente*/
+      display: flex;
+      justify-content: center;/*lo alinea en el eje x*/
+      align-items: center; /*lo alinea en el eje y*/
+      background-color: var(--botones1);
+    
+    }
+    
+    .menu .ficha{
+    
+    }
+    
+    .menu .manuales{
+      /*position: static;*/
+      position:relative;
+      /*top: 30px;*/
+      left: 20px;
+    
+    }
+    
+    .menu .capacitaciones{
+      position:relative;
+      /*top: 10px;*/
+      left: auto;
+    }
+    
+    .menu .contacto{
+      position:relative;
+      /*top: 10px;*/
+      left: 20px;
+    }
+    button {
+      /*margin: 0em;*/
+      display: grid;
+      
+      padding: 14px 10px;
+    }
+    /*...............................................................*/
+    /*                animacion botones principales                  */
+    /*...............................................................*/
+    
+    .menu :hover{
+      background-color: rgb(44, 16, 223);
+      color: rgb(204, 218, 12);
+    
+    }
+    
+    /*...............................................................*/
+    /*                           recuadro de notas                   */
+    /*...............................................................*/
+    
+    .menu :hover{
+      background-color: rgb(44, 16, 223);
+      color: rgb(204, 218, 12);
+    
+    }
+    
+    /*...............................................................*/
+    /*                           recuadro de notas                   */
+    /*...............................................................*/
+    .notas {
+      display: inline-block;
+      background-color: cornflowerblue;
+      height: 256px;
+      width: 90%;
+      padding: 5px;
+      position: relative;
+      top:10px;
+      left: 2px;
+    }
+    textarea {
+      
+    width: 98%;
+      
+    opacity: 0.6;
+      
+    font-weight: normal;
+    }
+    /*...............................................................*/
+    /*                recuadro de boton salir                        */
+    /*...............................................................*/
+    .botonSalir {
+      display: inline-block;
+      text-align: center;
+      width: 85%;
+      position: relative;
+      top: -260px;
+      left: 0px;
+      background-color: rgb(163, 218, 170);
+      padding: 15px;/*me genera un borde alrrededor del texto*/
+      /* border-radius: 30px;*/
+    }
+    .botonSalir a {
+      color:orangered;
+    }
+    .botonSalir:hover {
+      display: inline-block;
+      text-align: center;
+      width:85%;
+      position: relative;
+      top: -260px;
+      left: 0px;
+      padding: 15px;/*me genera un borde alrrededor del texto*/
+      /*border-radius: 30px;*/
+      transform: translate(5px, 5px);
+      background-color: rgb(55, 73, 241);    
+    }
+    .botonSalir a:hover {
+      color:yellow;
+    }
+  }
