@@ -31,15 +31,14 @@
 
   .menu {
       display: block;
-     /* list-style: none;*/
+      /* list-style: none;*/
       background-color: grey;
       height: 600px;
       width: 200px;
       position:relative;
-      top:-10px;
+      top: 0px;
       gap: 10px;
       font-size: 110%;
-
   }
   .menu a{
       color:white;
@@ -53,12 +52,11 @@
       height: 600px;
       width: 790px;
       position: relative;
-      top: -1150px;
-      left: 220px;
+      top: -1076px;
+      left: 208px;
       padding: 5px 10px;
       border-radius: 5%;
       font-size: 200%;
-  
   }
 
   /*...............................................................*/
@@ -296,10 +294,9 @@
   height: 200px;
   width: 400px;*/
   position: relative;
-  top: -67em;
-  left: 105em;
+  top: -81em;
+  left: 125em;
   padding: 5px 10px;
-  
 }
 /*...............................................................*/
 /*  cuadro de medidas --->1rem= 1em = 16px, 100% = 16px
@@ -309,7 +306,7 @@
 /*...............................................................*/
 
 html {
-  font-size: 60%;
+  font-size: 50%;
 }
 
 .container {
