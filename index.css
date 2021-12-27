@@ -451,4 +451,17 @@ html {
     .botonSalir a:hover {
       color:yellow;
     }
+
+    .calendario {
+      position: relative;
+      top: -1000em;
+      left: 150em;
+    }
+    .botonSalir .imagen {
+      position: relative;
+      top: -1000px;
+      left: 1070px;
+      max-width: 10%;
+      
+  }
   }
